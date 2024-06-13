@@ -14,15 +14,15 @@ Para acessar os dados disponíveis na tabela BigQuery `rj-cetrio.desafio.reading
 
 | Coluna           | Tipo       | Descrição                                 |
 |------------------|------------|-------------------------------------------|
-| datahora         | TIMESTAMP  | Data e hora da leitura                    |
-| datahora_captura | TIMESTAMP  | Data e hora da captura pelo radar         |
+| datahora         | TIMESTAMP  | Data e hora da detecção do radar          |
+| datahora_captura | TIMESTAMP  | Data e hora do recebimento dos dados      |
 | placa            | BYTES      | Placa do veículo capturado                |
-| empresa          | STRING     | Empresa do veículo                        |
+| empresa          | STRING     | Empresa do radar                          |
 | tipoveiculo      | STRING     | Tipo do veículo                           |
 | velocidade       | INTEGER    | Velocidade do veículo                     |
-| camera_numero    | STRING     | Número identificador da câmera            |
-| camera_latitude  | FLOAT      | Latitude da câmera                        |
-| camera_longitude | FLOAT      | Longitude da câmera                       |
+| camera_numero    | STRING     | Número identificador do radar             |
+| camera_latitude  | FLOAT      | Latitude do radar                         |
+| camera_longitude | FLOAT      | Longitude do radar                        |
 
 
 ### Requisitos
