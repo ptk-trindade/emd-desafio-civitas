@@ -10,7 +10,7 @@ O objetivo é fazer uma análise exploratória dos dados, identificar inconsist�
 
 ### Acesso aos Dados no BigQuery
 
-Para acessar os dados disponíveis na tabela BigQuery `rj-cetrio.desafio.readings_2024_06`, é necessário informar o e-mail que será utilizado para as consultas. Após a liberação, você pode seguir nosso tutorial de [como acessar dados do BigQuery](https://docs.dados.rio/tutoriais/como-acessar-dados/#acessando-dados-via-bigquery). Os dados têm o seguinte esquema:
+Os dados estão disponíveis na tabela BigQuery `rj-cetrio.desafio.readings_2024_06`. Você pode seguir nosso tutorial de [como acessar dados do BigQuery](https://docs.dados.rio/tutoriais/como-acessar-dados/#acessando-dados-via-bigquery). Os dados têm o seguinte esquema:
 
 | Coluna           | Tipo       | Descrição                                 |
 |------------------|------------|-------------------------------------------|
@@ -42,6 +42,7 @@ Para acessar os dados disponíveis na tabela BigQuery `rj-cetrio.desafio.reading
 - **Organização:** A solução proposta é organizada e bem documentada? É fácil de navegar e encontrar o que se procura?
 - **Criatividade:** A solução proposta é criativa? Apresenta uma abordagem inovadora para o problema proposto?
 - **Boas práticas:** A solução proposta segue boas práticas de SQL?
+- **Profundidade:** A solução proposta oferece uma análise mais completa e profunda do problema, proporcionando insights detalhados e bem fundamentados? **Soluções mais profundas e detalhadas terão um peso maior na avaliação geral.**
 
 ## Atenção
 
