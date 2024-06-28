@@ -10,17 +10,17 @@ O objetivo é fazer uma análise exploratória dos dados, identificar inconsist�
 
 ### Acesso aos Dados no BigQuery
 
-Os dados estão disponíveis na tabela BigQuery `rj-cetrio.desafio.readings_2024_06`. Você pode seguir nosso tutorial de [como acessar dados do BigQuery](https://docs.dados.rio/tutoriais/como-acessar-dados/#acessando-dados-via-bigquery). Os dados têm o seguinte esquema:
+Os dados deste desafio são fictícios e estão disponíveis no projeto do BigQuery `rj-cetrio`, tabela `rj-cetrio.desafio.readings_2024_06`. Você pode seguir nosso tutorial de [como acessar dados do BigQuery](https://docs.dados.rio/tutoriais/como-acessar-dados/#acessando-dados-via-bigquery). Os dados têm o seguinte esquema:
 
 | Coluna           | Tipo       | Descrição                                 |
 |------------------|------------|-------------------------------------------|
 | datahora         | TIMESTAMP  | Data e hora da detecção do radar          |
 | datahora_captura | TIMESTAMP  | Data e hora do recebimento dos dados      |
 | placa            | BYTES      | Placa do veículo capturado                |
-| empresa          | STRING     | Empresa do radar                          |
-| tipoveiculo      | STRING     | Tipo do veículo                           |
+| empresa          | BYTES      | Empresa do radar                          |
+| tipoveiculo      | BYTES      | Tipo do veículo                           |
 | velocidade       | INTEGER    | Velocidade do veículo                     |
-| camera_numero    | STRING     | Número identificador do radar             |
+| camera_numero    | BYTES      | Número identificador do radar             |
 | camera_latitude  | FLOAT      | Latitude do radar                         |
 | camera_longitude | FLOAT      | Longitude do radar                        |
 
